@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Mason Seeger
-author: "/assets/log.jpg"
+#author: "/assets/log.jpg"
 email: masonseeger_2019@depauw.edu
 description: >- # this means to ignore newlines until "baseurl:"
   This site is for things that I am excited to share with anyone who cares to see it. It also contains contact information if anyone would like to look into any of my works or ask question.
