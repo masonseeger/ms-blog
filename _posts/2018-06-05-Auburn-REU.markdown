@@ -11,4 +11,4 @@ This post is going to be an on-going page that will detail the experience I have
 
 There is not much more progress at this point other than extensive reading. We have ordered a LiDAR sensor, the xxx, and we are going to begin working with computer vision using a nondescript web camera and opencv or something like it in python or c++.
 
-![]({{ "/assets/AU.png" | absolute_url }}), ![]({{ "/assets/dod.jpg" | absolute_url }}), ![]({{ "/assets/NSF.jpg" | absolute_url }})
+![]({{ "/assets/NSF.jpg" | absolute_url }}){: .center}
