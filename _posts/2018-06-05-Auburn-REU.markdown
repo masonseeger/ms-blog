@@ -9,7 +9,7 @@ categories: jekyll update
 
 This post is going to be an on-going page that will detail the experience I have had researching at Auburn University in the field of Smart UAV's. Our research topic originated as making a homing system for a drone that has lost GPS signal. After much reading and discussion, the topic turned to using LiDAR and computer vision for object avoidance. The current focus is the detection and avoidance of dynamic objects.
 
-My partner for this research is Jack J. Amend, feel free to visit his webpage and view his insights on the project [here].
+My partner for this research is [Jack J. Amend](jackjamend.me), feel free to visit his webpage and view his insights on the project.
 Currently we are on week 5 of our research. Much has been done since the initial few weeks and I am excited to be sharing this with everyone!
 
 The first major advancement I want to talk about is our use of LiDAR. We are using both the Lidar Lite V3 and RPLidar A2M8. The RPLidar A2M8 is a product by SLAMTEC that gives us a 360 degree view of our surroundings in a 2D plane. The scanner also gives the distance from itself of everything that it detects. We plan to use this LiDAR for control tests of a LiDAR only collision avoidance system using the following code and the rplidar python extension by SkoltechRobotics.
@@ -77,3 +77,5 @@ Technical paper link:
 Important references to the research:
 
 ![]({{ "/assets/NSF.jpg" | absolute_url }}){: .center}
+
+[jack]: www.jackjamend.me
