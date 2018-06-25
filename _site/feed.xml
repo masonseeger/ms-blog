@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-25T14:26:47-05:00</updated><id>http://localhost:4000/</id><title type="html">Mason Seeger</title><subtitle>This site is for things that I am excited to share with anyone who cares to see it. It also contains contact information if anyone would like to look into any of my works or ask question.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-06-08T13:43:14-05:00</published><updated>2018-06-08T13:43:14-05:00</updated><id>http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-06-25T15:49:50-05:00</updated><id>http://localhost:4000/</id><title type="html">Mason Seeger</title><subtitle>This site is for things that I am excited to share with anyone who cares to see it. It also contains contact information if anyone would like to look into any of my works or ask question.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2018-06-08T13:43:14-05:00</published><updated>2018-06-08T13:43:14-05:00</updated><id>http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/06/08/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
 
 &lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
@@ -12,12 +12,22 @@
 
 &lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry><entry><title type="html">Auburn REU</title><link href="http://localhost:4000/jekyll/update/2018/06/05/Auburn-REU.html" rel="alternate" type="text/html" title="Auburn REU" /><published>2018-06-05T17:46:09-05:00</published><updated>2018-06-05T17:46:09-05:00</updated><id>http://localhost:4000/jekyll/update/2018/06/05/Auburn-REU</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2018/06/05/Auburn-REU.html">&lt;p&gt;&lt;img src=&quot;/assets/camp.jpg&quot; alt=&quot;Auburn University&quot; class=&quot;center&quot; width=&quot;1000px&quot; /&gt;&lt;/p&gt;
 
+&lt;p&gt;##Introduction:##&lt;/p&gt;
+
 &lt;p&gt;This post is going to be an on-going page that will detail the experience I have had researching at Auburn University in the field of Smart UAV’s. Our research topic originated as making a homing system for a drone that has lost GPS signal. After much reading and discussion, the topic turned to using LiDAR and computer vision for object avoidance. The current focus is the detection and avoidance of dynamic objects.&lt;/p&gt;
 
 &lt;p&gt;My partner for this research is &lt;a href=&quot;http://jackjamend.me&quot;&gt;Jack J. Amend&lt;/a&gt;, feel free to visit his webpage and view his insights on the project.
 Currently we are on week 5 of our research. Much has been done since the initial few weeks and I am excited to be sharing this with everyone!&lt;/p&gt;
 
-&lt;p&gt;The first major advancement I want to talk about is our use of LiDAR. We are using both the Lidar Lite V3 and RPLidar A2M8. The RPLidar A2M8 is a product by SLAMTEC that gives us a 360 degree view of our surroundings in a 2D plane. The scanner also gives the distance from itself of everything that it detects. We plan to use this LiDAR for control tests of a LiDAR only collision avoidance system using the following code and the rplidar python extension by SkoltechRobotics.&lt;/p&gt;
+&lt;h2 id=&quot;research&quot;&gt;Research:&lt;/h2&gt;
+
+&lt;h3 id=&quot;lidar&quot;&gt;LiDAR:&lt;/h3&gt;
+
+&lt;p&gt;The first major advancement I want to talk about is our use of LiDAR. We are using both the Lidar Lite V3 and RPLidar A2M8.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/rplidar.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The RPLidar A2M8 is a product by SLAMTEC that gives us a 360 degree view of our surroundings in a 2D plane. The scanner also gives the distance from itself of everything that it detects. We plan to use this LiDAR for control tests of a LiDAR only collision avoidance system using the following code and the rplidar python extension by SkoltechRobotics.&lt;/p&gt;
 
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;kn&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;rplidar&lt;/span&gt; &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;RPLidar&lt;/span&gt;
 &lt;span class=&quot;kn&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nn&quot;&gt;msvcrt&lt;/span&gt;
@@ -70,13 +80,68 @@ Currently we are on week 5 of our research. Much has been done since the initial
 &lt;span class=&quot;n&quot;&gt;lidar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stop_motor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;lidar&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;disconnect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;The Lidar Lite V3 resulted in a few more problems, but was a great learning experience about different connections and wirings on a breadboard and raspberry pi.
-Talk about configuring, troubleshooting with the dog thing, then using the arduino to finally get it… Then we have no real other info about it&lt;/p&gt;
+&lt;p&gt;The Lidar Lite V3 resulted in a few more problems, but was a great learning experience. The LiDAR Light V3 looks like so and comes with a six wire output.&lt;/p&gt;
 
-&lt;p&gt;Optical flow:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/lidar-lite-v3.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Technical paper link:&lt;/p&gt;
+&lt;p&gt;Only four wires are needed for our usage though. The wires are as follows:&lt;/p&gt;
 
-&lt;p&gt;Important references to the research:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Red: Power&lt;/li&gt;
+  &lt;li&gt;Green: I2C SCA connection&lt;/li&gt;
+  &lt;li&gt;Blue: I2C SDA connection&lt;/li&gt;
+  &lt;li&gt;Black: Ground&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I2C stands for Inter-integrated Connection and it is what the LiDAR uses to send and receive information. We initially tried to connect the LiDAR to a raspberry pi 3 Model B+. When connected to the raspberry pi, we ran a program in python3 to try to see a constant output of distances from the LiDAR. When the program was run, the raspberry pi gave us outputs of 0 for everything. After much troubleshooting with the I2C we were unable to figure out what was wrong with the LiDAR.&lt;/p&gt;
+
+&lt;p&gt;We then attempted to use an Adruino using C++ and things worked without a hitch. That is basically where we have gotten with our usage of LiDAR.&lt;/p&gt;
+
+&lt;h3 id=&quot;optical-flow&quot;&gt;Optical flow:&lt;/h3&gt;
+
+&lt;p&gt;I personally have not done too much work in optical flow. My partner Jack is working more on this while I focus on the LiDAR.
+Currently our repository that we are working in is being kept private, but when our research ends it is very likely that we will post any and all code that we develop publicly.&lt;/p&gt;
+
+&lt;h3 id=&quot;technical-paper-link&quot;&gt;Technical paper link:&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;/assets/evaluation-collision-avoidance.pdf&quot;&gt;LiDAR and Optical Flow Based Collision avoidance for UAVs&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Updated 6/25/2018&lt;/p&gt;
+
+&lt;h2 id=&quot;important-references-to-the-research&quot;&gt;Important references to the research:&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Azevedo, F., Oliveira, A., Dias, A., Almeida, J., Moreira, M., Santos, T., Ferreira, A.,
+Martins, A., and Silva, E. (2017). Collision avoidance for safe structure inspection with multirotor uav.
+In Mobile Robots (ECMR), 2017 European Conference on, pages 1–7. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Chang, R., Ding, R., and Lin, M. (2017). Optical flow based obstacle avoidance for
+multi-rotor aerial vehicles. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence
+(ICTAI), pages 574–578.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;He, F., Du, Z., Liu, X., and Ta, Y. (2010). Laser range finder based moving object tracking
+and avoidance in dynamic environment. In Information and Automation (ICIA), 2010 IEEE International
+Conference on, pages 2357–2362. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Horvat, D., Kobale, D., Zorec, J., Mongus, D., and Zalik, B. (2016). Assessing the us- ˇ
+ability of lidar processing methods on uav data. In Computational Science and Computational Intelligence
+(CSCI), 2016 International Conference on, pages 665–670. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Hrabar, S. (2012). An evaluation of stereo and laser-based range sensing for rotorcraft unmanned
+aerial vehicle obstacle avoidance. Journal of Field Robotics, 29(2):215–239.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Lai, Y.-K., Huang, Y.-H., and Hwang, C.-M. (2016). Front moving object detection for car
+collision avoidance applications. In Consumer Electronics (ICCE), 2016 IEEE International Conference
+on, pages 367–368. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Li, R., Liu, J., Zhang, L., and Hang, Y. (2014). Lidar/mems imu integrated navigation
+(slam) method for a small uav in indoor environments. In Inertial Sensors and Systems Symposium (ISS),
+2014 DGON, pages 1–15. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Li, X., Li, Z., Fu, B., Wu, B., and Liu, Y. (2017). A mini consumer grade unmanned aerial
+vehicle (uav) for small scale terrace detection. In Geoscience and Remote Sensing Symposium (IGARSS),
+2017 IEEE International, pages 3349–3352. IEEE.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Merz, T. and Kendoul, F. (2011). Beyond visual range obstacle avoidance and
+infrastructure inspection by an autonomous helicopter. In Intelligent Robots and Systems (IROS), 2011
+IEEE/RSJ International Conference on, pages 4953–4960. IEEE.&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://localhost:4000/assets/NSF.jpg&quot; alt=&quot;&quot; class=&quot;center&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
