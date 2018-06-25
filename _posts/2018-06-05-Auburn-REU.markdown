@@ -7,7 +7,7 @@ categories: jekyll update
 
 ![Auburn University](/assets/camp.jpg){: .center width="1000px"}
 
-##Introduction:##
+## Introduction: ##
 
 This post is going to be an on-going page that will detail the experience I have had researching at Auburn University in the field of Smart UAV's. Our research topic originated as making a homing system for a drone that has lost GPS signal. After much reading and discussion, the topic turned to using LiDAR and computer vision for object avoidance. The current focus is the detection and avoidance of dynamic objects.
 
@@ -139,5 +139,8 @@ _Merz, T. and Kendoul, F. (2011). Beyond visual range obstacle avoidance and
 infrastructure inspection by an autonomous helicopter. In Intelligent Robots and Systems (IROS), 2011
 IEEE/RSJ International Conference on, pages 4953–4960. IEEE._
 
+## Acknowledgements ##
+
+The research was funded by the National Science Foundation and the Department of Defense. 
 
 ![]({{ "/assets/NSF.jpg" | absolute_url }}){: .center}
