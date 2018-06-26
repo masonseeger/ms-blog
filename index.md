@@ -5,6 +5,6 @@
 layout: home
 ---
 
-# Welcome! 
+## Welcome!
 
 Welcome to my webpage, I hope you find some interesting stuff!
