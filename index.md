@@ -3,10 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: home
+title: Home
 
 ---
 
-## Welcome!
-
-Welcome to my webpage, I hope you find some interesting stuff!
+### Welcome to my webpage, I hope you find some interesting stuff!
