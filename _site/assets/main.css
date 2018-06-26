@@ -19,10 +19,7 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal;
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column; }
+  font-kerning: normal; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -237,7 +234,7 @@ table {
         line-height: 0;
         padding-top: 10px;
         text-align: center; }
-        .site-nav .menu-icon > svg {
+        .site-nav .menu-icon > svg path {
           fill: #424242; }
       .site-nav input ~ .trigger {
         clear: both;
@@ -308,8 +305,7 @@ table {
  * Page content
  */
 .page-content {
-  padding: 30px 0;
-  flex: 1; }
+  padding: 30px 0; }
 
 .page-heading {
   font-size: 32px; }
