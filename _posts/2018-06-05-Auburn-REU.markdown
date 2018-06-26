@@ -94,8 +94,13 @@ We then attempted to use an Adruino using C++ and things worked without a hitch.
 
 ### Optical flow:
 
-I personally have not done too much work in optical flow. My partner Jack is working more on this while I focus on the LiDAR.
-Currently our repository that we are working in is being kept private, but when our research ends it is very likely that we will post any and all code that we develop publicly.  
+I personally have not done too much work in optical flow. But the gist of how things work goes about like this. We take in a video frame by frame. From each frame we use an algorithm in openCV to find features in the pictures. We then divide the picture into a bunch of small boxes. Any boxes that contain features will be turned red and all the other boxes are marked free to move through.
+
+My partner Jack is working more on this while I focus on the LiDAR. Currently our repository that we are working in is being kept private, but when our research ends it is very likely that we will post any and all code that we develop publicly.  
+
+### Experiment:
+
+Our experiment is still in the works. The idea currently is that we use a 5 meter radius circle that we want our drone to stay inside. We have control tests using a solely LiDAR system and a solely optical flow based system that use the methods above. Then we need to find a way to calibrate a camera with our LiDAR so that we can connect the distances to what the camera sees. Then we will make a sort of program that uses both LiDAR and optical flow for collision avoidance. More on this in the future.
 
 ### Technical paper link:
 [LiDAR and Optical Flow Based Collision avoidance for UAVs](/assets/evaluation-collision-avoidance.pdf)
@@ -141,6 +146,6 @@ IEEE/RSJ International Conference on, pages 4953–4960. IEEE._
 
 ## Acknowledgements ##
 
-The research was funded by the National Science Foundation and the Department of Defense. 
+The research was hosted by Auburn University and was funded by the National Science Foundation and the Department of Defense.
 
-![]({{ "/assets/NSF.jpg" | absolute_url }}){: .center}
+![]({{ "/assets/NSF.jpg" | absolute_url }}){: .center} ![](/assets/AU.png){: width = "500px"}
