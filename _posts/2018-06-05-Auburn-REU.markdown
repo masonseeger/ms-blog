@@ -88,24 +88,28 @@ The Lidar Lite V3 resulted in a few more problems, but was a great learning expe
 * Blue: I2C SDA connection
 * Black: Ground
 
-I2C stands for Inter-integrated Connection and it is what the LiDAR uses to send and receive information. We initially tried to connect the LiDAR to a raspberry pi 3 Model B+. When connected to the raspberry pi, we ran a program in python3 to try to see a constant output of distances from the LiDAR. When the program was run, the raspberry pi gave us outputs of 0 for everything. After much troubleshooting with the I2C we were unable to figure out what was wrong with the LiDAR.
+I2C stands for Inter-integrated Connection and it is what the LiDAR uses to send and receive information. We initially tried to connect the LiDAR to a raspberry pi 3 Model B+. When connected to the raspberry pi, we ran a program in python3 to try to see a constant output of distances from the LiDAR. When the program was run, the raspberry pi gave us outputs of 0 for everything. After much troubleshooting with the I2C we were able to figure out that the problem was the version of Raspbian that we were using. Installations after 2016 use the I2C connections in such a way that the LiDAR Lite V3 does not work. After switching to a November 2016 installation of Raspbian, the LiDAR works as expected.
 
-We then attempted to use an Adruino using C++ and things worked without a hitch. That is basically where we have gotten with our usage of LiDAR.
+The LiDAR was then used to determine the distance of objects directly in front of the drone and whether or not to start object avoidance protocol. 
 
 ### Optical flow:
 
-I personally have not done too much work in optical flow. But the gist of how things work goes about like this. We take in a video frame by frame. From each frame we use an algorithm in openCV to find features in the pictures. We then divide the picture into a bunch of small boxes. Any boxes that contain features will be turned red and all the other boxes are marked free to move through.
+Optical flow is being used in this project to detect what things are moving in the picture and what needs to be avoided by the drone if something gets too close. It uses Shi Tomase algorithm for good features to track and the Lucas Kanade method for optical flow. We graphed an 8x8 grid on the image and counted how many features were in each block. Then we decided which direction was the safest place to go based on which side of the picture had the least amount of features present.
 
-My partner Jack is working more on this while I focus on the LiDAR. Currently our repository that we are working in is being kept private, but when our research ends it is very likely that we will post any and all code that we develop publicly.  
+My partner Jack worked a lot on this part of the research.   
 
 ### Experiment:
 
-Our experiment is still in the works. The idea currently is that we use a 5 meter radius circle that we want our drone to stay inside. We have control tests using a solely LiDAR system and a solely optical flow based system that use the methods above. Then we need to find a way to calibrate a camera with our LiDAR so that we can connect the distances to what the camera sees. Then we will make a sort of program that uses both LiDAR and optical flow for collision avoidance. More on this in the future.
+The experiment is based on the idea that we do not want the drone to have a waypoint or location that it is trying to get to. The only thing that it needs to do is avoid any sort of collision. We encountered problems with the AR Parrot 2.0 that made flying the drone difficult and hazardous to the hardware that we were using (ie. it would randomly fly into the ceiling or take off in directions that we know for certain we were not telling it to). So the data was found while holding the drone and moving a large object in and out of the frame. Everything in the program worked pretty well and the program gave the correct output for moving the drone in different directions and out of the way of detected harm.
+
+There are many things that could be improved upon and we hope to do some more independent work on the program and in a different simulation software to see if we could get some more substantial data. The tracking algorithm that we used could also be changed. It has difficulties tracking any points that are moving because of the blur of the picture. This could be helped by a different camera that still has very clear images of moving objects or by a different algorithm that specifically detects moving objects.
+
+To get a more in-depth understanding of the research, feel free to look at the following work-in-progress paper.    
 
 ### Technical paper link:
-[LiDAR and Optical Flow Based Collision avoidance for UAVs](/assets/evaluation-collision-avoidance.pdf)
+[LiDAR and Optical Flow Based Collision avoidance for UAVs](/assets/collision-avoidance-system.pdf)
 
-Updated 6/25/2018
+Updated 7/24/2018
 
 ## Important references to the research:
 
