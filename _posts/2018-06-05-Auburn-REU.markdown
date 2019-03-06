@@ -2,7 +2,7 @@
 layout: post
 title:  "Auburn REU"
 date:   2018-06-05 18:46:09 -0400
-categories: jekyll update
+categories: jekyll update 
 ---
 
 ![Auburn University](/assets/camp.jpg){: .center width="1000px"}
@@ -90,7 +90,7 @@ The Lidar Lite V3 resulted in a few more problems, but was a great learning expe
 
 I2C stands for Inter-integrated Connection and it is what the LiDAR uses to send and receive information. We initially tried to connect the LiDAR to a raspberry pi 3 Model B+. When connected to the raspberry pi, we ran a program in python3 to try to see a constant output of distances from the LiDAR. When the program was run, the raspberry pi gave us outputs of 0 for everything. After much troubleshooting with the I2C we were able to figure out that the problem was the version of Raspbian that we were using. Installations after 2016 use the I2C connections in such a way that the LiDAR Lite V3 does not work. After switching to a November 2016 installation of Raspbian, the LiDAR works as expected.
 
-The LiDAR was then used to determine the distance of objects directly in front of the drone and whether or not to start object avoidance protocol. 
+The LiDAR was then used to determine the distance of objects directly in front of the drone and whether or not to start object avoidance protocol.
 
 ### Optical flow:
 

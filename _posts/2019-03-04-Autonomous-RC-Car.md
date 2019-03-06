@@ -106,9 +106,7 @@ Now for the autonomous feature. I connected up the LiDAR unit and used the rplid
 I also used the range detector by placing it on the front of the car and it it detected a large spike in distance, it would stop the car before it fell off of a ledge. I then used multiprocessing to place the auto-driving function and ledge detection into separate processes so that they could run and report information at the same time, increasing response times.
 
 That's basically the whole project. I used a camera and the following terminal commands to display video to a local IP. Then I used VLC media player and its stream function to watch the video at http//LOCAL_IP:8160. [This video](www.youtube.com/watch?v=JjPsW-7FUng.) provides a more in depth solution.
-`code(
-  raspivid -o - -t 0 -hf -vf -w 800 -h 400 -fps 24 |cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:8160}' :demux=h264
-  )`
+`raspivid -o - -t 0 -hf -vf -w 800 -h 400 -fps 24 |cvlc -vvv stream:///dev/stdin --sout '#standard{access=http,mux=ts,dst=:8160}' :demux=h264`
 
  The project was of mixed success. It did well in scenarios where there were many defined walls around it, but failed in scenarios with small obstacles like chair and table legs.
 
