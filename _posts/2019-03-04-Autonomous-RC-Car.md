@@ -9,7 +9,7 @@ For my Senior Project at DePauw I decided to extend some of the research that I 
 
 The basis of this project was using LiDAR and multiprocessing on a Raspberry Pi to make an autonomous RC car. You can find all of the code in my [autocar repository](https://github.com/masonseeger/autoCar/blob/master/keyController.py) on github. Feel free to DM me any question or improvements!
 
-##1. Materials  
+##1. Materials ##
 
 The following is a detailed list of materials that I used for this project. In total everything costs around $550-$600.
 
@@ -23,14 +23,14 @@ The following is a detailed list of materials that I used for this project. In t
 * RPLIDAR A2M8 360° Laser Range Scanner - a LiDAR sensor used for the autonomous driving function.
 * 120pcs 20cm Multicolor Jumper Wires for Arduino / Raspberry Pi, 40 Male to Male, 40 Male to Female, 40 Female to Female by Corpco - used to connect various parts to the Raspberry Pi GPIO pins.
 
-##2 Setup.  
+##2 Setup##
 The setup is simple, but I advise using caution and easily recognizable wiring conventions (ie red = power, black = ground, etc.) because it is very easy to end up frying different components. If you want to be even more cautious you can use resisters, but I encountered no problems without them.
 
 Connect the car using the Servo Driver and the Raspberry pi. I used [this tutorial](www.youtube.com/watch?v=byRLYkZkJZE) and found that it covers this subject very well. Make sure that you remember which cable is connected to which part of the servo driver. The rest of the parts are pretty self explanatory except for the SainSmart range detector which will be discussed later.
 
-##3 Connect to the Raspberry Pi
+##3 Connect to the Raspberry Pi##
 This is fairly simple, while you are on the same network as the Pi, simply ssh into the Pi using its IP address. You can find this a bunch of different ways, I just used an app called Fing to scan all of the IP addresses and names currently on my network.
-##4 Installing the required packages and making a driving function.
+##4 Installing the required packages and making a driving function##
 To make a driving function on your raspberry pi using python we need a few different libraries. Those can be found below:
 {% highlight python %}
 import time
